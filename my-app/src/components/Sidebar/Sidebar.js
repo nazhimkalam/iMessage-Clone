@@ -9,7 +9,7 @@ function Sidebar() {
 	return (
 		<div className="sidebar">
 			<div className="sidebar__header">
-				<Avatar className="sidebar__avatar"/>
+				<Avatar className="sidebar__avatar" />
 				<div className="sidebar__input">
 					<SearchIcon />
 					<input type="text" placeholder="Search" />
@@ -20,10 +20,10 @@ function Sidebar() {
 			</div>
 
 			<div className="sidebar__chats">
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
-      </div>
+				<SidebarChat />
+				<SidebarChat />
+				<SidebarChat />
+			</div>
 		</div>
 	);
 }

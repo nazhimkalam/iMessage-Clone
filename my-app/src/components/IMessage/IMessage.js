@@ -1,14 +1,15 @@
-import React from 'react'
-import Sidebar from '../Sidebar/Sidebar'
-import './IMessage.css'
+import React from 'react';
+import Chat from '../Chat/Chat';
+import Sidebar from '../Sidebar/Sidebar';
+import './IMessage.css';
 
 function IMessage() {
-    return (
-        <div className="iMessage">
-           <Sidebar />
-           {/* <Chat /> */}
-        </div>
-    )
+	return (
+		<div className="iMessage">
+			<Sidebar />
+			<Chat />
+		</div>
+	);
 }
 
-export default IMessage
+export default IMessage;
