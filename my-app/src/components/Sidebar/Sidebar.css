@@ -14,22 +14,37 @@
 	height: 54px;
 }
 
-.sidebar__avatar{
-    cursor: pointer;
-    margin: 10px;
+.sidebar__avatar {
+	cursor: pointer;
+	margin: 10px;
 }
-.sidebar__input{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e1e1e1;
-    color: gray;
-    border-radius: 8px;
-    flex: 1;
+.sidebar__input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e1e1e1;
+	color: gray;
+	border-radius: 8px;
+	flex: 1;
 }
-.sidebar__input > input{
-    border: none;
-    outline: none;
-    background: transparent;
+.sidebar__input > input {
+	border: none;
+	outline: none;
+	background: transparent;
 }
 
+.sidebar__chats {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+/* Hide scroll bar for chrome, safari and opera */
+.sidebar__chats::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scroll bar for IE, Edge and Firefox */
+.sidebar__chats {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
