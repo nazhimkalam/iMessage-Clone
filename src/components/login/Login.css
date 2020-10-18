@@ -1,0 +1,32 @@
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	width: 100%;
+	background-image: url('https://media.istockphoto.com/photos/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-picture-id1188030698?b=1&k=6&m=1188030698&s=170667a&w=0&h=g2evBkDG-PEB85K4Ou3QBCfFKKf9K0dmqFjeG8WwKNs=');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: color-burn;
+}
+
+.login > div > img {
+	object-fit: contain;
+	height: 150px;
+}
+
+.login > button {
+	width: 250px;
+	background-color: #3ea4fb;
+	color: whitesmoke;
+    border: 2px whitesmoke solid;
+    border-radius: 50px !important;
+    font-weight: 800;
+    transition: 0.2s ease-in-out;
+}
+
+.login > button:hover {
+	background-color: whitesmoke;
+    color: #3ea4fb;
+    border: 2px #3ea4fb solid;
+    transition: 0.2s ease-in;
+}
