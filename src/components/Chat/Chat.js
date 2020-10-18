@@ -25,10 +25,7 @@ function Chat() {
 			</div>
 
             <div className="chat__messages">
-                <h2>I am a message</h2>
-                <h2>I am a message</h2>
-                <h2>I am a message</h2>
-                <h2>I am a message</h2>
+                <Message />
             </div>
 
 
