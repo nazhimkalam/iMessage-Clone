@@ -4,14 +4,14 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../../features/userSlice';
 import './SidebarChat.css';
 
-function SidebarChat() {
+function SidebarChat({ id, chatName }) {
 	const user = useSelector(selectUser);
 
 	return (
 		<div className="sidebarChat">
-			<Avatar/>
+			<Avatar />
 			<div className="sidebarChat__info">
-				<h3>Channel Name</h3>
+				<h3>{chatName}</h3>
 				<p>Last message sent...</p>
 				<small>timestamp</small>
 			</div>
