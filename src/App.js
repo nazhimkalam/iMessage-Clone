@@ -27,7 +27,7 @@ function App() {
 				dispatch(logout());
 			}
 		});
-	}, [user]);
+	}, []);
 
 	return <div className="app">{user ? <IMessage /> : <Login />}</div>;
 }

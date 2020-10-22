@@ -26,6 +26,8 @@
 	color: gray;
 	border-radius: 8px;
 	flex: 1;
+	height: 30px;
+
 }
 .sidebar__input > input {
 	border: none;
@@ -47,4 +49,10 @@
 .sidebar__chats {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+}
+.logoutButtons button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
 }

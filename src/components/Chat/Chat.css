@@ -38,7 +38,7 @@
 .chat__input > form > input {
 	width: 95%;
 	outline: none;
-	border: 1px solid lightgray;
+	border: 1px solid rgb(177, 177, 177);
 	border-radius: 999px;
 	padding: 5px;
 }
@@ -47,5 +47,18 @@
 	display: none;
 }
 .chat__messages{
-    flex: 1;
+	flex: 1;
+	overflow: scroll;
+}
+
+
+/* Hide scroll bar for chrome, safari and opera */
+.chat__messages::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scroll bar for IE, Edge and Firefox */
+.chat__messages {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
